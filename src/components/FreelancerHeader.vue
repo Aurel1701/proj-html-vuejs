@@ -9,7 +9,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style>
@@ -17,7 +19,7 @@ export default {};
   height: 600px;
   background-image: url("../assets/freeheader.jpg");
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.5;
 }.logo{
     padding-top:20px;
     padding-left: 20px;
