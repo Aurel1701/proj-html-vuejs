@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import RecentWork from './components/RecentWork.vue'
 import FreelancerHeader from './components/FreelancerHeader.vue'
 import AboutMe from './components/AboutMe.vue'
 
@@ -16,8 +15,7 @@ export default {
   components: {
     FreelancerHeader,
     AboutMe,
-    RecentWork,
-   
+    
   }
 }
 </script>

@@ -35,7 +35,7 @@
     </div>
     <div class="work">
       <h2>Why Work Whit Me</h2>
-      <p>WEB - BRANDING - UX/XI </p>
+      <p>WEB - BRANDING - UX/XI</p>
       <p style="color: rgba(84, 97, 116, 1)">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
         reiciendis, accusamus repellat quia eius dolores neque iusto. Qui,
@@ -55,9 +55,7 @@
 </template>
 
 <script>
-export default {
- 
-};
+export default {};
 </script>
 
 <style>
@@ -82,7 +80,16 @@ h2 {
 .work {
   background-color: rgba(25, 28, 35, 1);
   height: 400px;
-}h2{
+}
+.work::before {
+  content: "";
+  float: left;
+  width: 100%;
+  height: 100px;
+  transform: translateY(-50px) skewY(2deg);
+  background:rgba(25, 28, 35, 1);
+}
+h2 {
   padding-top: 50px;
 }
 </style>

@@ -18,7 +18,7 @@ export default {
 .free {
   height: 600px;
   background-image: url("../assets/freeheader.jpg");
-  background-position: center;
+  background-size: cover;
   opacity: 0.5;
 }.logo{
     padding-top:20px;
