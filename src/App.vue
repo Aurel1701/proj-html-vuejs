@@ -2,7 +2,6 @@
   <div id="app">
     <FreelancerHeader />
     <AboutMe />
-    <RecentWork />
   </div>
 </template>
 
@@ -15,7 +14,6 @@ export default {
   components: {
     FreelancerHeader,
     AboutMe,
-    
   }
 }
 </script>

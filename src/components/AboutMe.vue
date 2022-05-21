@@ -51,20 +51,39 @@
         quam deserunt ad.
       </p>
     </div>
+    <div class="recent-work">
+      <h3>Recent Work</h3>
+      <p>WEB - BRANDING - UX/XI</p>
+    </div>
+    <div class="bags">
+      <div class="bagflex">
+        <img src="../assets/bag1.jpg" alt="" />
+        <img src="../assets/bag2.jpg" alt="" />
+      </div>
+      <div class="bagflex">
+        <img src="../assets/bag3.jpg" alt="" />
+        <img src="../assets/bag4.jpg" alt="" />
+      </div>
+      <div class="bagflex">
+        <img src="../assets/bag5.jpg" alt="" />
+        <img src="../assets/bag6.jpg" alt="" />
+      </div>
+    </div>
+    <div class="allWork">
+      <p>VIEW ALL WORK</p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {};
 </script>
-
 <style>
 .info {
   text-align: center;
   height: 600px;
   background-color: rgba(32, 35, 44, 1);
   padding-top: 40px;
-  /* background: linear-gradient(-30px); */
 }
 .box-1 {
   height: 500px;
@@ -87,9 +106,36 @@ h2 {
   width: 100%;
   height: 100px;
   transform: translateY(-50px) skewY(2deg);
-  background:rgba(25, 28, 35, 1);
+  background: rgba(25, 28, 35, 1);
 }
 h2 {
   padding-top: 50px;
+}
+.recent-work {
+  padding-bottom: 30px;
+  background-color: rgba(150, 197, 119, 1);
+}
+p {
+  color: white;
+}
+h3 {
+  color: white;
+  font-size: 30px;
+}
+.recent-work::before {
+  content: "";
+  float: left;
+  width: 100%;
+  height: 100px;
+  transform: translateY(-63px) skewY(2deg);
+  background: rgba(150, 197, 119, 1);
+}
+.bagflex {
+  display: flex;
+  width: 100vw;
+}
+.allWork{
+  padding: 10px;
+  background-color: rgba(249, 34, 91, 1);
 }
 </style>
