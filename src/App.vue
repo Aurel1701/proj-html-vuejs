@@ -6,16 +6,16 @@
 </template>
 
 <script>
-import FreelancerHeader from './components/FreelancerHeader.vue'
-import AboutMe from './components/AboutMe.vue'
+import FreelancerHeader from "./components/FreelancerHeader.vue";
+import AboutMe from "./components/AboutMe.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     FreelancerHeader,
     AboutMe,
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
