@@ -46,9 +46,6 @@
         consectetur quibusdam, fugiat earum magnam quasi corrupti accusamus
         praesentium voluptate repudiandae fugit porro nulla vero. Provident quos
         temporibus praesentium blanditiis vel doloribus voluptatum dolorem sunt
-        fugit natus? Harum iusto, facere eligendi corrupti nulla magnam
-        reprehenderit! Velit consequuntur ab minus facilis architecto maiores
-        quam deserunt ad.
       </p>
     </div>
     <div class="recent-work">
@@ -182,6 +179,9 @@ h2 {
 }
 p {
   color: white;
+  max-width: 60%;
+  margin: auto;
+  padding-top: 25px;
 }
 h3 {
   color: white;
